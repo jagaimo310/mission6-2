@@ -1,0 +1,101 @@
+/* 閲覧画面.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #4D4D4D;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ヘッダーのスタイル */
+.header {
+    background-color: #D0E8C7;
+    padding: 20px 0;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.header p  {
+    text-align: right;
+}
+
+.headerForm{
+    color: white;
+    margin: 0px 20px 20px 20px; 
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #4D4D4D;
+    padding: 15px;
+}
+
+.form a {
+    color:white;
+    margin:0px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#4D4D4D;
+    padding:15px;
+    text-align:right;
+}
+
+
+
+.form a:hover{
+    background-color:green;
+}
+
+
+
+/* ブログセクションのスタイル */
+.blog {
+    margin: 20px 50px;
+    padding: 20px 0px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #FFFDD0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blogTitle {
+    display: block;
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.blogTitle:hover {
+    color:#4D4D4D;
+}
+
+hr {
+    background: #dee2e6;
+    margin: 15px 0;
+}
+
+.footer {
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#4D4D4D;
+    padding:10px;
+    display: block; 
+    width: 50px; 
+    text-align: center; 
+    margin: 0 auto;
+}

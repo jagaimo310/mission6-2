@@ -1,0 +1,93 @@
+/* 投稿.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #4D4D4D;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ヘッダーのスタイル */
+.header {
+    background-color: #D0E8C7;
+    padding: 20px 0;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.headder{
+    text-align: right;
+}
+
+.headerForm{
+    color: white;
+    margin: 0px 20px 20px 20px; 
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #4D4D4D;
+    padding: 15px;
+}
+
+/* ブログセクションのスタイル */
+.form {
+    margin: 20px 50px;
+    padding: 20px 0px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #FFFDD0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+ input{
+    padding:10px;
+    width:10%;
+    margin: 10px auto; 
+    display:block;
+}
+
+.comment{
+    display: block;
+    margin:0 auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto;
+    height: 300px; /* テキストエリアのデフォルトの高さを設定 */
+    resize: vertical; 
+}
+
+.submit{
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.footer{
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#4D4D4D;
+    padding:10px;
+    display: block; 
+    width: 50px; 
+    text-align: center; 
+    margin: 0 auto;
+}
